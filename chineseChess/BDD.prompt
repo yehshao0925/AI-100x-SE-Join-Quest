@@ -1,0 +1,32 @@
+# Task
+
+You are asked to follow a strict Behavior-Driven Development (BDD) approach for all acceptance scenarios in the @chineseChess.feature.
+You cannot do multiple steps in the BDD development process at the same time, nor can you skip any step; you must execute and validate the results of each step step step by step.
+
+# Context
+
+## Design Guideline
+
+- also reference the chineseChessRule.md file when the @chineseChess.feature is not clear enough.
+
+## Tech Stack
+
+1. Language Env: Java
+2. BDD Test framework: Cucumber
+3. Native test framework: Junit5
+
+## Application Environment
+
+1. App Type: Pure Module Code
+2. All the preferences in this feature file are logically stored in OrderService.
+3. Source code root: src/
+
+# BDD development process
+
+1. Build a cucumber walking skeleton - a cucumber and at least one scenario that can run smoothly, and make sure that at least one test case is executed by the test framework.
+2. Strictly follow the BDD and the principle of minimum incremental development of all code, for all scenarios, develop one scenario at a time, and proceed sequentially:
+   A. Select one scenario at a time to implement, ignore all tests except for this scenario, write the Steps (given, when, then) for this scenario, open the relevant categories, but do not implement the behavior of each category, and run the test to confirm that the test fails and that the test fails for reasons other than the framework level. The reason for this failure is not a framework-level error, but an error in the desired “value”. Strictly confirm that this step is complete before proceeding to the next step.
+   B. In order to pass the test code written in the previous step, implement the code required for the relevant category and make sure that all the test code passes. Strictly confirm that the test code was executed, and repeat from the test report the number of tests passed so far.
+   C. Follow the clean code principle and think about whether or not you want to refactor the internal code for each category. If refactoring is necessary, run the test again after refactoring to make sure that all the tests are still passing, otherwise fix the logic until all the tests pass.
+
+Translated with DeepL.com (free version)
