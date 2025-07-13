@@ -1,0 +1,8 @@
+com\example\service\promotion\ThresholdDiscountPromotion.class
+com\example\model\OrderItem.class
+com\example\model\Product.class
+com\example\model\Order.class
+com\example\model\OrderSummary.class
+com\example\service\OrderService.class
+com\example\service\promotion\BuyOneGetOnePromotion.class
+com\example\service\promotion\Promotion.class
