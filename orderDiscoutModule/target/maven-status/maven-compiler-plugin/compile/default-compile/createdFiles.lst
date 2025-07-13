@@ -1,3 +1,4 @@
+com\example\service\promotion\DoubleElevenPromotion.class
 com\example\service\promotion\ThresholdDiscountPromotion.class
 com\example\model\OrderItem.class
 com\example\model\Product.class

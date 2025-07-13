@@ -27,9 +27,6 @@ public class OrderService {
             promotion.apply(order, summary);
         }
 
-        // Recalculate totalAmount after promotions
-        summary.setTotalAmount(summary.getOriginalAmount() - summary.getDiscount());
-
         return summary;
     }
 }

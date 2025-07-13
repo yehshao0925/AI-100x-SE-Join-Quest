@@ -23,54 +23,54 @@ Feature: E-commerce Order Pricing Promotions
     When a customer places an order with:
       | productName | quantity | unitPrice |
       | T-shirt     | 2        | 500       |
-      | 褲子          | 1        | 600       |
+      | 褲子        | 1        | 600       |
     Then the order summary should be:
       | originalAmount | discount | totalAmount |
       | 1600           | 100      | 1500        |
     And the customer should receive:
       | productName | quantity |
       | T-shirt     | 2        |
-      | 褲子          | 1        |
+      | 褲子        | 1        |
 
   Scenario: Buy-one-get-one for cosmetics - multiple products
     Given the buy one get one promotion for cosmetics is active
     When a customer places an order with:
       | productName | category  | quantity | unitPrice |
-      | 口紅          | cosmetics | 1        | 300       |
-      | 粉底液         | cosmetics | 1        | 400       |
+      | 口紅        | cosmetics | 1        | 300       |
+      | 粉底液      | cosmetics | 1        | 400       |
     Then the order summary should be:
       | totalAmount |
       | 700         |
     And the customer should receive:
       | productName | quantity |
-      | 口紅          | 2        |
-      | 粉底液         | 2        |
+      | 口紅        | 2        |
+      | 粉底液      | 2        |
 
   Scenario: Buy-one-get-one for cosmetics - same product twice
     Given the buy one get one promotion for cosmetics is active
     When a customer places an order with:
       | productName | category  | quantity | unitPrice |
-      | 口紅          | cosmetics | 2        | 300       |
+      | 口紅        | cosmetics | 2        | 300       |
     Then the order summary should be:
       | totalAmount |
       | 600         |
     And the customer should receive:
       | productName | quantity |
-      | 口紅          | 3        |
+      | 口紅        | 3        |
 
   Scenario: Buy-one-get-one for cosmetics - mixed categories
     Given the buy one get one promotion for cosmetics is active
     When a customer places an order with:
       | productName | category  | quantity | unitPrice |
-      | 襪子          | apparel   | 1        | 100       |
-      | 口紅          | cosmetics | 1        | 300       |
+      | 襪子        | apparel   | 1        | 100       |
+      | 口紅        | cosmetics | 1        | 300       |
     Then the order summary should be:
       | totalAmount |
       | 400         |
     And the customer should receive:
       | productName | quantity |
-      | 襪子          | 1        |
-      | 口紅          | 2        |
+      | 襪子        | 1        |
+      | 口紅        | 2        |
 
   Scenario: Multiple promotions stacked
     Given the threshold discount promotion is configured:
@@ -80,11 +80,65 @@ Feature: E-commerce Order Pricing Promotions
     When a customer places an order with:
       | productName | category  | quantity | unitPrice |
       | T-shirt     | apparel   | 3        | 500       |
-      | 口紅          | cosmetics | 1        | 300       |
+      | 口紅        | cosmetics | 1        | 300       |
     Then the order summary should be:
       | originalAmount | discount | totalAmount |
       | 1800           | 100      | 1700        |
     And the customer should receive:
       | productName | quantity |
       | T-shirt     | 3        |
-      | 口紅          | 2        |
+      | 口紅        | 2        |
+
+  Scenario: Double 11 promotion - 12 identical items
+    Given the double eleven promotion is active, where every 10 identical items get 20% off as a group
+    When a customer places an order with:
+      | productName | quantity | unitPrice |
+      | 襪子        | 12       | 100       |
+    Then the order summary should be:
+      | originalAmount | discount | totalAmount |
+      | 1200           | 200      | 1000        |
+    And the customer should receive:
+      | productName | quantity |
+      | 襪子        | 12       |
+
+  Scenario: Double 11 promotion - 27 identical items
+    Given the double eleven promotion is active, where every 10 identical items get 20% off as a group
+    When a customer places an order with:
+      | productName | quantity | unitPrice |
+      | 襪子        | 27       | 100       |
+    Then the order summary should be:
+      | originalAmount | discount | totalAmount |
+      | 2700           | 400      | 2300        |
+    And the customer should receive:
+      | productName | quantity |
+      | 襪子        | 27       |
+
+  Scenario: Double 11 promotion - 10 different products (no discount)
+    Given the double eleven promotion is active, where every 10 identical items get 20% off as a group
+    When a customer places an order with:
+      | productName | quantity | unitPrice |
+      | A           | 1        | 100       |
+      | B           | 1        | 100       |
+      | C           | 1        | 100       |
+      | D           | 1        | 100       |
+      | E           | 1        | 100       |
+      | F           | 1        | 100       |
+      | G           | 1        | 100       |
+      | H           | 1        | 100       |
+      | I           | 1        | 100       |
+      | J           | 1        | 100       |
+    Then the order summary should be:
+      | totalAmount |
+      | 1000        |
+    And the customer should receive:
+      | productName | quantity |
+      | A           | 1        |
+      | B           | 1        |
+      | C           | 1        |
+      | D           | 1        |
+      | E           | 1        |
+      | F           | 1        |
+      | G           | 1        |
+      | H           | 1        |
+      | I           | 1        |
+      | J           | 1        |

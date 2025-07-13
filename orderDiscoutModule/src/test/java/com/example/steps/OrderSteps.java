@@ -6,6 +6,7 @@ import com.example.model.Product;
 import com.example.model.OrderSummary;
 import com.example.service.OrderService;
 import com.example.service.promotion.BuyOneGetOnePromotion;
+import com.example.service.promotion.DoubleElevenPromotion;
 import com.example.service.promotion.Promotion;
 import com.example.service.promotion.ThresholdDiscountPromotion;
 import io.cucumber.datatable.DataTable;
@@ -23,6 +24,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class OrderSteps {
 
     private List<Promotion> promotions;
+
+    @Given("the double eleven promotion is active, where every {int} identical items get {int}% off as a group")
+    public void the_double_eleven_promotion_is_active_where_every_identical_items_get_off_as_a_group(Integer groupSize, Integer discountPercentage) {
+        promotions.add(new DoubleElevenPromotion(groupSize, discountPercentage));
+    }
     private OrderService orderService;
     private Order order;
     private OrderSummary orderSummary;

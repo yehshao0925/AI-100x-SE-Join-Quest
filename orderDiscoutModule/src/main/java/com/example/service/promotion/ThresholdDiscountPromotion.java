@@ -16,6 +16,7 @@ public class ThresholdDiscountPromotion implements Promotion {
     public void apply(Order order, OrderSummary summary) {
         if (summary.getOriginalAmount() >= threshold) {
             summary.setDiscount(summary.getDiscount() + discount);
+            summary.setTotalAmount(summary.getTotalAmount() - discount);
         }
     }
 }
