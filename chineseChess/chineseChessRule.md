@@ -10,15 +10,15 @@ Capture your opponent’s **GENERAL** while protecting your own.
 
 - The board is **9 vertical lines** × **10 horizontal lines**.
 - A **river** divides the board horizontally between the 4th and 5th ranks.
-- Each side has a **palace**: a 3×3 area centered at the back (columns 3 to 5, rows 0–2 for Red, rows 7–9 for Black).
+- Each side has a **palace**: a 3×3 area centered at the back (columns 4 to 6, rows 1–3 for Red, rows 8–10 for Black).
 
 ---
 
 ## Initial Piece Placement
 
 Each side (Red and Black) has 16 pieces arranged as follows:
-Ranks: 0–9 (rows)
-Files: 0–8 (columns)
+Ranks: 1–10 (rows)
+Files: 1–9 (columns)
 
 ---
 
@@ -26,33 +26,33 @@ Files: 0–8 (columns)
 
 | Position                          | Piece        |
 | --------------------------------- | ------------ |
-| (0,0)                             | Rook         |
-| (0,1)                             | Horse        |
-| (0,2)                             | Elephant     |
-| (0,3)                             | GUARD        |
-| (0,4)                             | GENERAL      |
-| (0,5)                             | GUARD        |
-| (0,6)                             | Elephant     |
-| (0,7)                             | Horse        |
-| (0,8)                             | Rook         |
-| (2,1), (2,7)                      | Cannon       |
-| (3,0), (3,2), (3,4), (3,6), (3,8) | SOLDIER/PAWN |
+| (1,1)                             | Rook         |
+| (1,2)                             | Horse        |
+| (1,3)                             | Elephant     |
+| (1,4)                             | GUARD        |
+| (1,5)                             | GENERAL      |
+| (1,6)                             | GUARD        |
+| (1,7)                             | Elephant     |
+| (1,8)                             | Horse        |
+| (1,9)                             | Rook         |
+| (3,2), (3,8)                      | Cannon       |
+| (4,1), (4,3), (4,5), (4,7), (4,9) | SOLDIER/PAWN |
 
 ### Black Side (Top)
 
 | Position                          | Piece        |
 | --------------------------------- | ------------ |
-| (9,0)                             | Rook         |
-| (9,1)                             | Horse        |
-| (9,2)                             | Elephant     |
-| (9,3)                             | GUARD        |
-| (9,4)                             | GENERAL      |
-| (9,5)                             | GUARD        |
-| (9,6)                             | Elephant     |
-| (9,7)                             | Horse        |
-| (9,8)                             | Rook         |
-| (7,1), (7,7)                      | Cannon       |
-| (6,0), (6,2), (6,4), (6,6), (6,8) | SOLDIER/PAWN |
+| (10,1)                            | Rook         |
+| (10,2)                            | Horse        |
+| (10,3)                            | Elephant     |
+| (10,4)                            | GUARD        |
+| (10,5)                            | GENERAL      |
+| (10,6)                            | GUARD        |
+| (10,7)                            | Elephant     |
+| (10,8)                            | Horse        |
+| (10,9)                            | Rook         |
+| (8,2), (8,8)                      | Cannon       |
+| (7,1), (7,3), (7,5), (7,7), (7,9) | SOLDIER/PAWN |
 
 ---
 

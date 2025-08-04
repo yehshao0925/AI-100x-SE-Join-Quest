@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="io.cucumber.junit.platform.engine.CucumberTestEngine" time="0.295" tests="29" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\m2553\Desktop\Repo\01-AI-100x-SE-Join-Quest\chineseChess\target\test-classes;C:\Users\m2553\Desktop\Repo\01-AI-100x-SE-Join-Quest\chineseChess\target\classes;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\m2553\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\m2553\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.18.0\cucumber-junit-platform-engine-7.18.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\m2553\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\m2553\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\m2553\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Taipei"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TW"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\jdk-22.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\m2553\AppData\Local\Temp\surefire18255099751140085557\surefirebooter-20250715010306096_3.jar C:\Users\m2553\AppData\Local\Temp\surefire18255099751140085557 2025-07-15T01-03-05_933-jvmRun1 surefire-20250715010306096_1tmp surefire_0-20250715010306096_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\m2553\Desktop\Repo\01-AI-100x-SE-Join-Quest\chineseChess\target\test-classes;C:\Users\m2553\Desktop\Repo\01-AI-100x-SE-Join-Quest\chineseChess\target\classes;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\m2553\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\m2553\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\m2553\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\m2553\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.18.0\cucumber-junit-platform-engine-7.18.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\m2553\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\m2553\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\m2553\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\m2553\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\m2553"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\OpenJDK\jdk-22.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\m2553\Desktop\Repo\01-AI-100x-SE-Join-Quest\chineseChess"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\m2553\AppData\Local\Temp\surefire18255099751140085557\surefirebooter-20250715010306096_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="user.name" value="m2553"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\m2553\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\m2553\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Users\m2553\Desktop\Repo\01-AI-100x-SE-Join-Quest\chineseChess"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\OpenJDK\jdk-22.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\m2553\DevTools;;C:\Program Files\OpenJDK\jdk-22.0.2\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.10\bin;C:\Users\m2553\AppData\Local\Microsoft\WindowsApps;C:\Users\m2553\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="Red moves the General one step forward within the palace (Legal)" classname="Chinese Chess (象棋) Rules" time="0.115">
+    <system-out><![CDATA[
+@General
+Scenario: Red moves the General one step forward within the palace (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red General at (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m              &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_general_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the General from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                         &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_general_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                   &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[7月 15, 2025 1:03:06 上午 io.cucumber.junit.platform.engine.DiscoverySelectorResolver warnWhenCucumberFeaturesPropertyIsUsed
+WARNING: Discovering tests using the cucumber.features property. Other discovery selectors are ignored!
+
+This is a work around for the limited JUnit 5 support in Maven and Gradle. Please request/upvote/sponsor/ect better support for JUnit 5 discovery selectors. For details see: https://github.com/cucumber/cucumber-jvm/pull/2498
+
+If you are using the JUnit 5 Suite Engine, Platform Launcher API or Console Launcher you should not use this property. Please consult the JUnit 5 documentation on test selection.
+]]></system-err>
+  </testcase>
+  <testcase name="Red moves the General one step forward within the palace (Legal)" classname="Chinese Chess (象棋) Rules" time="0.009">
+    <system-out><![CDATA[
+@General
+Scenario: Red moves the General one step forward within the palace (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red General at (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m              &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_general_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the General from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                         &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_general_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                   &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the General one step sideways within the palace (Legal)" classname="Chinese Chess (象棋) Rules" time="0.007">
+    <system-out><![CDATA[
+@General
+Scenario: Red moves the General one step sideways within the palace (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red General at (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m               &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_general_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the General from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                          &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_general_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the General one step sideways within the palace (Legal)" classname="Chinese Chess (象棋) Rules" time="0.01">
+    <system-out><![CDATA[
+@General
+Scenario: Red moves the General one step sideways within the palace (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red General at (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m               &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_general_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the General from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                          &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_general_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the General outside the palace (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.021">
+    <system-out><![CDATA[
+@General
+Scenario: Red moves the General outside the palace (Illegal)  &amp#27;[90m# src/test/resources/features/chineseChess.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red General at (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_general_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the General from (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_general_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the General outside the palace (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.005">
+    <system-out><![CDATA[
+@General
+Scenario: Red moves the General outside the palace (Illegal)  &amp#27;[90m# src/test/resources/features/chineseChess.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red General at (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_general_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the General from (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_general_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red General moves into a position to face the enemy General (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.033">
+    <system-out><![CDATA[
+@General
+Scenario: Red General moves into a position to face the enemy General (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                          &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red General   | (2, 4)   |
+    | Black General | (8, 5)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the General from (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                              &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_general_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                      &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red General moves into a position to face the enemy General (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.007">
+    <system-out><![CDATA[
+@General
+Scenario: Red General moves into a position to face the enemy General (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                          &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red General   | (2, 4)   |
+    | Black General | (8, 5)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the General from (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                              &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_general_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                      &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Guard one step diagonally within the palace (Legal)" classname="Chinese Chess (象棋) Rules" time="0.013">
+    <system-out><![CDATA[
+@Guard
+Scenario: Red moves the Guard one step diagonally within the palace (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:46&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Guard at (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_guard_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Guard from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_guard_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Guard one step diagonally within the palace (Legal)" classname="Chinese Chess (象棋) Rules" time="0.005">
+    <system-out><![CDATA[
+@Guard
+Scenario: Red moves the Guard one step diagonally within the palace (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:46&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Guard at (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_guard_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Guard from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_guard_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Guard outside the palace (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.013">
+    <system-out><![CDATA[
+@Guard
+Scenario: Red moves the Guard outside the palace (Illegal)  &amp#27;[90m# src/test/resources/features/chineseChess.feature:52&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Guard at (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_guard_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Guard from (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_guard_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                  &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Guard outside the palace (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.005">
+    <system-out><![CDATA[
+@Guard
+Scenario: Red moves the Guard outside the palace (Illegal)  &amp#27;[90m# src/test/resources/features/chineseChess.feature:52&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Guard at (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_guard_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Guard from (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_guard_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                  &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Guard horizontally (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.022">
+    <system-out><![CDATA[
+@Guard
+Scenario: Red moves the Guard horizontally (Illegal)        &amp#27;[90m# src/test/resources/features/chineseChess.feature:58&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Guard at (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_guard_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Guard from (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_guard_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                  &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Guard horizontally (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.01">
+    <system-out><![CDATA[
+@Guard
+Scenario: Red moves the Guard horizontally (Illegal)        &amp#27;[90m# src/test/resources/features/chineseChess.feature:58&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Guard at (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_guard_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Guard from (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_guard_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                  &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Guard vertically (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.011">
+    <system-out><![CDATA[
+@Guard
+Scenario: Red moves the Guard vertically (Illegal)          &amp#27;[90m# src/test/resources/features/chineseChess.feature:64&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Guard at (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_guard_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Guard from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_guard_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                  &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Guard vertically (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.012">
+    <system-out><![CDATA[
+@Guard
+Scenario: Red moves the Guard vertically (Illegal)          &amp#27;[90m# src/test/resources/features/chineseChess.feature:64&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Guard at (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_guard_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Guard from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_guard_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                  &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Rook along a clear rank (Legal)" classname="Chinese Chess (象棋) Rules" time="0.013">
+    <system-out><![CDATA[
+@Rook
+Scenario: Red moves the Rook along a clear rank (Legal)    &amp#27;[90m# src/test/resources/features/chineseChess.feature:73&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Rook at (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_rook_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Rook from (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_rook_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                   &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Rook along a clear rank (Legal)" classname="Chinese Chess (象棋) Rules" time="0.009">
+    <system-out><![CDATA[
+@Rook
+Scenario: Red moves the Rook along a clear rank (Legal)    &amp#27;[90m# src/test/resources/features/chineseChess.feature:73&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Rook at (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_rook_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Rook from (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_rook_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                   &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red Rook captures a piece along a clear file (Legal)" classname="Chinese Chess (象棋) Rules" time="0.012">
+    <system-out><![CDATA[
+@Rook
+Scenario: Red Rook captures a piece along a clear file (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:79&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                         &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece       | Position |
+    | Red Rook    | (1, 1)   |
+    | Black Horse | (10, 1)  |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Rook from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m               &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_rook_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is a legal capture&amp#27;[0m                             &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_a_legal_capture()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red Rook captures a piece along a clear file (Legal)" classname="Chinese Chess (象棋) Rules" time="0.01">
+    <system-out><![CDATA[
+@Rook
+Scenario: Red Rook captures a piece along a clear file (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:79&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                         &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece       | Position |
+    | Red Rook    | (1, 1)   |
+    | Black Horse | (10, 1)  |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Rook from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m               &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_rook_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is a legal capture&amp#27;[0m                             &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_a_legal_capture()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Rook and attempts to jump over one piece (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.019">
+    <system-out><![CDATA[
+@Rook
+Scenario: Red moves the Rook and attempts to jump over one piece (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:88&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                     &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red Rook      | (4, 1)   |
+    | Black Soldier | (4, 5)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Rook from (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m&amp#27;[32m)&amp#27;[0m                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_rook_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Rook and attempts to jump over one piece (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.007">
+    <system-out><![CDATA[
+@Rook
+Scenario: Red moves the Rook and attempts to jump over one piece (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:88&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                     &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red Rook      | (4, 1)   |
+    | Black Soldier | (4, 5)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Rook from (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m&amp#27;[32m)&amp#27;[0m                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_rook_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Horse in an “L” shape with no block (Legal)" classname="Chinese Chess (象棋) Rules" time="0.012">
+    <system-out><![CDATA[
+@Horse
+Scenario: Red moves the Horse in an “L” shape with no block (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:100&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Horse at (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m         &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_horse_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Horse from (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_horse_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Horse in an “L” shape with no block (Legal)" classname="Chinese Chess (象棋) Rules" time="0.006">
+    <system-out><![CDATA[
+@Horse
+Scenario: Red moves the Horse in an “L” shape with no block (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:100&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Horse at (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m         &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_horse_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Horse from (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_horse_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Horse and it is blocked by a vertically adjacent piece (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.012">
+    <system-out><![CDATA[
+@Horse
+Scenario: Red moves the Horse and it is blocked by a vertically adjacent piece (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:106&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                                   &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece      | Position |
+    | Red Horse  | (3, 3)   |
+    | Black Rook | (4, 3)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Horse from (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                         &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_horse_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                               &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Horse and it is blocked by a vertically adjacent piece (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.006">
+    <system-out><![CDATA[
+@Horse
+Scenario: Red moves the Horse and it is blocked by a vertically adjacent piece (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:106&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                                   &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece      | Position |
+    | Red Horse  | (3, 3)   |
+    | Black Rook | (4, 3)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Horse from (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                         &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_horse_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                               &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Horse and it is blocked by a horizontally adjacent piece (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.011">
+    <system-out><![CDATA[
+@Horse
+Scenario: Red moves the Horse and it is blocked by a horizontally adjacent piece (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:115&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                                     &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red Horse     | (3, 3)   |
+    | Black Soldier | (3, 2)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Horse from (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                           &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_horse_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Horse and it is blocked by a horizontally adjacent piece (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.018">
+    <system-out><![CDATA[
+@Horse
+Scenario: Red moves the Horse and it is blocked by a horizontally adjacent piece (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:115&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                                     &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red Horse     | (3, 3)   |
+    | Black Soldier | (3, 2)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Horse from (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                           &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_horse_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Cannon like a Rook to an empty spot (Legal)" classname="Chinese Chess (象棋) Rules" time="0.008">
+    <system-out><![CDATA[
+@Cannon
+Scenario: Red moves the Cannon like a Rook to an empty spot (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:127&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Cannon at (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m)&amp#27;[0m        &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_cannon_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Cannon from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m&amp#27;[32m)&amp#27;[0m                   &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_cannon_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Cannon like a Rook to an empty spot (Legal)" classname="Chinese Chess (象棋) Rules" time="0.007">
+    <system-out><![CDATA[
+@Cannon
+Scenario: Red moves the Cannon like a Rook to an empty spot (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:127&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Cannon at (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m)&amp#27;[0m        &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_cannon_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Cannon from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m&amp#27;[32m)&amp#27;[0m                   &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_cannon_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red captures with the Cannon by jumping over a single piece (Legal)" classname="Chinese Chess (象棋) Rules" time="0.012">
+    <system-out><![CDATA[
+@Cannon
+Scenario: Red captures with the Cannon by jumping over a single piece (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:133&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                        &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red Cannon    | (6, 2)   |
+    | Black Soldier | (6, 5)   |
+    | Black Guard   | (6, 8)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Cannon from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m&amp#27;[32m)&amp#27;[0m                             &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_cannon_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is a legal capture&amp#27;[0m                                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_a_legal_capture()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red captures with the Cannon by jumping over a single piece (Legal)" classname="Chinese Chess (象棋) Rules" time="0.003">
+    <system-out><![CDATA[
+@Cannon
+Scenario: Red captures with the Cannon by jumping over a single piece (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:133&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                        &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red Cannon    | (6, 2)   |
+    | Black Soldier | (6, 5)   |
+    | Black Guard   | (6, 8)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Cannon from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m&amp#27;[32m)&amp#27;[0m                             &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_cannon_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is a legal capture&amp#27;[0m                                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_a_legal_capture()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Cannon and attempts to capture without a screen (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.011">
+    <system-out><![CDATA[
+@Cannon
+Scenario: Red moves the Cannon and attempts to capture without a screen (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:143&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece       | Position |
+    | Red Cannon  | (6, 2)   |
+    | Black Guard | (6, 8)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Cannon from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_cannon_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal because it is not a capture and the path is blocked&amp#27;[0m    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal_because_it_is_not_a_capture_and_the_path_is_blocked()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Cannon and attempts to capture without a screen (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.007">
+    <system-out><![CDATA[
+@Cannon
+Scenario: Red moves the Cannon and attempts to capture without a screen (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:143&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece       | Position |
+    | Red Cannon  | (6, 2)   |
+    | Black Guard | (6, 8)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Cannon from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_cannon_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal because it is not a capture and the path is blocked&amp#27;[0m    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal_because_it_is_not_a_capture_and_the_path_is_blocked()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Cannon and attempts to capture over two screens (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.011">
+    <system-out><![CDATA[
+@Cannon
+Scenario: Red moves the Cannon and attempts to capture over two screens (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:152&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red Cannon    | (6, 2)   |
+    | Red Soldier   | (6, 4)   |
+    | Black Soldier | (6, 5)   |
+    | Black Guard   | (6, 8)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Cannon from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_cannon_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                        &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Cannon and attempts to capture over two screens (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.011">
+    <system-out><![CDATA[
+@Cannon
+Scenario: Red moves the Cannon and attempts to capture over two screens (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:152&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red Cannon    | (6, 2)   |
+    | Red Soldier   | (6, 4)   |
+    | Black Soldier | (6, 5)   |
+    | Black Guard   | (6, 8)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Cannon from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_cannon_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                        &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Elephant a 2x2 diagonal with a clear midpoint (Legal)" classname="Chinese Chess (象棋) Rules" time="0.011">
+    <system-out><![CDATA[
+@Elephant
+Scenario: Red moves the Elephant a 2x2 diagonal with a clear midpoint (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:166&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Elephant at (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m                &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_elephant_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Elephant from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                           &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_elephant_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                      &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Elephant a 2x2 diagonal with a clear midpoint (Legal)" classname="Chinese Chess (象棋) Rules" time="0.006">
+    <system-out><![CDATA[
+@Elephant
+Scenario: Red moves the Elephant a 2x2 diagonal with a clear midpoint (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:166&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Elephant at (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m                &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_elephant_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Elephant from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                           &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_elephant_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                      &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Elephant and attempts to cross the river (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.009">
+    <system-out><![CDATA[
+@Elephant
+Scenario: Red moves the Elephant and attempts to cross the river (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:172&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Elephant at (&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m             &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_elephant_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Elephant from (&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                        &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_elephant_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Elephant and attempts to cross the river (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.008">
+    <system-out><![CDATA[
+@Elephant
+Scenario: Red moves the Elephant and attempts to cross the river (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:172&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Elephant at (&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m             &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_elephant_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Elephant from (&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                        &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_elephant_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Elephant and its path is blocked at the midpoint (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.009">
+    <system-out><![CDATA[
+@Elephant
+Scenario: Red moves the Elephant and its path is blocked at the midpoint (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:178&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                             &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece        | Position |
+    | Red Elephant | (1, 3)   |
+    | Black Rook   | (2, 4)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Elephant from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_elephant_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                         &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Elephant and its path is blocked at the midpoint (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.014">
+    <system-out><![CDATA[
+@Elephant
+Scenario: Red moves the Elephant and its path is blocked at the midpoint (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:178&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                                             &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece        | Position |
+    | Red Elephant | (1, 3)   |
+    | Black Rook   | (2, 4)   |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Elephant from (&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_elephant_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                         &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Soldier one step forward before crossing the river (Legal)" classname="Chinese Chess (象棋) Rules" time="0.012">
+    <system-out><![CDATA[
+@Soldier
+Scenario: Red moves the Soldier one step forward before crossing the river (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:190&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Soldier at (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                      &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_soldier_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Soldier from (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_soldier_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                           &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Soldier one step forward before crossing the river (Legal)" classname="Chinese Chess (象棋) Rules" time="0.006">
+    <system-out><![CDATA[
+@Soldier
+Scenario: Red moves the Soldier one step forward before crossing the river (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:190&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Soldier at (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                      &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_soldier_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Soldier from (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                 &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_soldier_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                           &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Soldier sideways before crossing the river (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.01">
+    <system-out><![CDATA[
+@Soldier
+Scenario: Red moves the Soldier sideways before crossing the river (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:196&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Soldier at (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_soldier_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Soldier from (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                           &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_soldier_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                   &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Soldier sideways before crossing the river (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.008">
+    <system-out><![CDATA[
+@Soldier
+Scenario: Red moves the Soldier sideways before crossing the river (Illegal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:196&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Soldier at (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_soldier_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Soldier from (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                           &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_soldier_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                                   &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Soldier one step forward after crossing the river (Legal)" classname="Chinese Chess (象棋) Rules" time="0.009">
+    <system-out><![CDATA[
+@Soldier
+Scenario: Red moves the Soldier one step forward after crossing the river (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:202&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Soldier at (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                     &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_soldier_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Soldier from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_soldier_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                          &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Soldier one step forward after crossing the river (Legal)" classname="Chinese Chess (象棋) Rules" time="0.004">
+    <system-out><![CDATA[
+@Soldier
+Scenario: Red moves the Soldier one step forward after crossing the river (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:202&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Soldier at (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                     &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_soldier_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Soldier from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_soldier_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                          &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Soldier sideways after crossing the river (Legal)" classname="Chinese Chess (象棋) Rules" time="0.011">
+    <system-out><![CDATA[
+@Soldier
+Scenario: Red moves the Soldier sideways after crossing the river (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:208&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Soldier at (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m             &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_soldier_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Soldier from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                        &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_soldier_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                  &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Soldier sideways after crossing the river (Legal)" classname="Chinese Chess (象棋) Rules" time="0.001">
+    <system-out><![CDATA[
+@Soldier
+Scenario: Red moves the Soldier sideways after crossing the river (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:208&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Soldier at (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m             &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_soldier_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Soldier from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                        &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_soldier_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                                  &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Soldier backward (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.01">
+    <system-out><![CDATA[
+@Soldier
+Scenario: Red moves the Soldier backward (Illegal)            &amp#27;[90m# src/test/resources/features/chineseChess.feature:214&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Soldier at (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_soldier_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Soldier from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_soldier_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red moves the Soldier backward (Illegal)" classname="Chinese Chess (象棋) Rules" time="0.008">
+    <system-out><![CDATA[
+@Soldier
+Scenario: Red moves the Soldier backward (Illegal)            &amp#27;[90m# src/test/resources/features/chineseChess.feature:214&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Soldier at (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_soldier_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Soldier from (&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_soldier_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is illegal&amp#27;[0m                                    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_illegal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red Soldier on the final rank can only move sideways (Legal)" classname="Chinese Chess (象棋) Rules" time="0.01">
+    <system-out><![CDATA[
+@Soldier
+Scenario: Red Soldier on the final rank can only move sideways (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:220&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Soldier at (&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m         &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_soldier_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Soldier from (&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                   &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_soldier_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                               &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red Soldier on the final rank can only move sideways (Legal)" classname="Chinese Chess (象棋) Rules" time="0.01">
+    <system-out><![CDATA[
+@Soldier
+Scenario: Red Soldier on the final rank can only move sideways (Legal) &amp#27;[90m# src/test/resources/features/chineseChess.feature:220&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board is empty except for a Red Soldier at (&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m         &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_is_empty_except_for_a_red_soldier_at(int,int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Soldier from (&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                   &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_soldier_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe move is legal&amp#27;[0m                                               &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_move_is_legal()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red puts the Black General in check" classname="Chinese Chess (象棋) Rules" time="0.009">
+    <system-out><![CDATA[
+@Winning
+Scenario: Red puts the Black General in check   &amp#27;[90m# src/test/resources/features/chineseChess.feature:229&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                          &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red Rook      | (5, 5)   |
+    | Black General | (10, 5)  |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Rook from (&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_rook_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe Black General is in check&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_black_general_is_in_check()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red puts the Black General in check" classname="Chinese Chess (象棋) Rules" time="0.008">
+    <system-out><![CDATA[
+@Winning
+Scenario: Red puts the Black General in check   &amp#27;[90m# src/test/resources/features/chineseChess.feature:229&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                          &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red Rook      | (5, 5)   |
+    | Black General | (10, 5)  |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Rook from (&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_rook_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe Black General is in check&amp#27;[0m            &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_black_general_is_in_check()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red checkmates the Black General, winning the game" classname="Chinese Chess (象棋) Rules" time="0.013">
+    <system-out><![CDATA[
+@Winning
+Scenario: Red checkmates the Black General, winning the game &amp#27;[90m# src/test/resources/features/chineseChess.feature:238&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                       &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red Rook      | (9, 4)   |
+    | Red Horse     | (8, 7)   |
+    | Black General | (10, 6)  |
+    | Black Guard   | (10, 5)  |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Rook from (&amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m             &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_rook_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBlack is in checkmate and Red wins&amp#27;[0m                    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.black_is_in_checkmate_and_red_wins()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Red checkmates the Black General, winning the game" classname="Chinese Chess (象棋) Rules" time="0.009">
+    <system-out><![CDATA[
+@Winning
+Scenario: Red checkmates the Black General, winning the game &amp#27;[90m# src/test/resources/features/chineseChess.feature:238&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe board has:&amp#27;[0m                                       &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.the_board_has(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Piece         | Position |
+    | Red Rook      | (9, 4)   |
+    | Red Horse     | (8, 7)   |
+    | Black General | (10, 6)  |
+    | Black Guard   | (10, 5)  |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRed moves the Rook from (&amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m) to (&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m             &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.red_moves_the_rook_from_to(int,int,int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBlack is in checkmate and Red wins&amp#27;[0m                    &amp#27;[90m# com.example.chinesechess.steps.ChineseChessSteps.black_is_in_checkmate_and_red_wins()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

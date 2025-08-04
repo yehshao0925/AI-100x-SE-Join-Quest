@@ -1,0 +1,5 @@
+com\example\chinesechess\Piece$Type.class
+com\example\chinesechess\Piece.class
+com\example\chinesechess\Board.class
+com\example\chinesechess\Position.class
+com\example\chinesechess\Piece$Color.class

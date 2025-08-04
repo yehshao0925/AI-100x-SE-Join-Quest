@@ -50,8 +50,8 @@ Feature: Chinese Chess (象棋) Rules
 
     @Guard
     Scenario: Red moves the Guard outside the palace (Illegal)
-        Given the board is empty except for a Red Guard at (3, 4)
-        When Red moves the Guard from (3, 4) to (4, 5)
+        Given the board is empty except for a Red Guard at (2, 5)
+        When Red moves the Guard from (2, 5) to (4, 4)
         Then the move is illegal
 
     @Guard
